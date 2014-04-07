@@ -51,6 +51,12 @@
 		DD94F89718F1B0B300EE1226 /* lundump.c in Sources */ = {isa = PBXBuildFile; fileRef = DD94F87418F1B0B300EE1226 /* lundump.c */; };
 		DD94F89818F1B0B300EE1226 /* lvm.c in Sources */ = {isa = PBXBuildFile; fileRef = DD94F87618F1B0B300EE1226 /* lvm.c */; };
 		DD94F89918F1B0B300EE1226 /* lzio.c in Sources */ = {isa = PBXBuildFile; fileRef = DD94F87818F1B0B300EE1226 /* lzio.c */; };
+		DD94F89C18F1B18500EE1226 /* LuaBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = DD94F89B18F1B18500EE1226 /* LuaBridge.m */; };
+		DD94F89F18F1B1F400EE1226 /* L_source in Resources */ = {isa = PBXBuildFile; fileRef = DD94F89E18F1B1F400EE1226 /* L_source */; };
+		DD94F8A218F1B41200EE1226 /* LKS_LoadData.m in Sources */ = {isa = PBXBuildFile; fileRef = DD94F8A118F1B41200EE1226 /* LKS_LoadData.m */; };
+		DD94F8A718F1B4E500EE1226 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD94F8A518F1B4E500EE1226 /* ViewController.m */; };
+		DD94F8A818F1B4E500EE1226 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD94F8A618F1B4E500EE1226 /* ViewController.xib */; };
+		DD94F8AB18F1BA5E00EE1226 /* AppTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DD94F8AA18F1BA5E00EE1226 /* AppTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +143,16 @@
 		DD94F87718F1B0B300EE1226 /* lvm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lvm.h; sourceTree = "<group>"; };
 		DD94F87818F1B0B300EE1226 /* lzio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lzio.c; sourceTree = "<group>"; };
 		DD94F87918F1B0B300EE1226 /* lzio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lzio.h; sourceTree = "<group>"; };
+		DD94F89A18F1B18500EE1226 /* LuaBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuaBridge.h; sourceTree = "<group>"; };
+		DD94F89B18F1B18500EE1226 /* LuaBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuaBridge.m; sourceTree = "<group>"; };
+		DD94F89E18F1B1F400EE1226 /* L_source */ = {isa = PBXFileReference; lastKnownFileType = folder; path = L_source; sourceTree = SOURCE_ROOT; };
+		DD94F8A018F1B41200EE1226 /* LKS_LoadData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKS_LoadData.h; sourceTree = "<group>"; };
+		DD94F8A118F1B41200EE1226 /* LKS_LoadData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKS_LoadData.m; sourceTree = "<group>"; };
+		DD94F8A418F1B4E500EE1226 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD94F8A518F1B4E500EE1226 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD94F8A618F1B4E500EE1226 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		DD94F8A918F1BA5E00EE1226 /* AppTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppTest.h; sourceTree = "<group>"; };
+		DD94F8AA18F1BA5E00EE1226 /* AppTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +215,13 @@
 				DD94F84018F1B0B300EE1226 /* srcLua */,
 				DD94F82018F1AF6500EE1226 /* AppDelegate.h */,
 				DD94F82118F1AF6500EE1226 /* AppDelegate.m */,
+				DD94F8A918F1BA5E00EE1226 /* AppTest.h */,
+				DD94F8AA18F1BA5E00EE1226 /* AppTest.m */,
+				DD94F8A418F1B4E500EE1226 /* ViewController.h */,
+				DD94F8A518F1B4E500EE1226 /* ViewController.m */,
+				DD94F8A618F1B4E500EE1226 /* ViewController.xib */,
+				DD94F8A318F1B4CA00EE1226 /* LuaBridge */,
+				DD94F89E18F1B1F400EE1226 /* L_source */,
 				DD94F82318F1AF6500EE1226 /* Images.xcassets */,
 				DD94F81818F1AF6500EE1226 /* Supporting Files */,
 			);
@@ -298,6 +321,17 @@
 			path = srcLua;
 			sourceTree = "<group>";
 		};
+		DD94F8A318F1B4CA00EE1226 /* LuaBridge */ = {
+			isa = PBXGroup;
+			children = (
+				DD94F89A18F1B18500EE1226 /* LuaBridge.h */,
+				DD94F89B18F1B18500EE1226 /* LuaBridge.m */,
+				DD94F8A018F1B41200EE1226 /* LKS_LoadData.h */,
+				DD94F8A118F1B41200EE1226 /* LKS_LoadData.m */,
+			);
+			name = LuaBridge;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -373,7 +407,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD94F89F18F1B1F400EE1226 /* L_source in Resources */,
 				DD94F81C18F1AF6500EE1226 /* InfoPlist.strings in Resources */,
+				DD94F8A818F1B4E500EE1226 /* ViewController.xib in Resources */,
 				DD94F82418F1AF6500EE1226 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,11 +432,13 @@
 				DD94F89818F1B0B300EE1226 /* lvm.c in Sources */,
 				DD94F87E18F1B0B300EE1226 /* lcode.c in Sources */,
 				DD94F87F18F1B0B300EE1226 /* lcorolib.c in Sources */,
+				DD94F8AB18F1BA5E00EE1226 /* AppTest.m in Sources */,
 				DD94F88518F1B0B300EE1226 /* lfunc.c in Sources */,
 				DD94F82218F1AF6500EE1226 /* AppDelegate.m in Sources */,
 				DD94F88218F1B0B300EE1226 /* ldebug.c in Sources */,
 				DD94F88818F1B0B300EE1226 /* liolib.c in Sources */,
 				DD94F88F18F1B0B300EE1226 /* loslib.c in Sources */,
+				DD94F89C18F1B18500EE1226 /* LuaBridge.m in Sources */,
 				DD94F87C18F1B0B300EE1226 /* lbaselib.c in Sources */,
 				DD94F89618F1B0B300EE1226 /* ltm.c in Sources */,
 				DD94F88118F1B0B300EE1226 /* ldblib.c in Sources */,
@@ -410,8 +448,10 @@
 				DD94F88418F1B0B300EE1226 /* ldump.c in Sources */,
 				DD94F89218F1B0B300EE1226 /* lstring.c in Sources */,
 				DD94F87A18F1B0B300EE1226 /* lapi.c in Sources */,
+				DD94F8A718F1B4E500EE1226 /* ViewController.m in Sources */,
 				DD94F89118F1B0B300EE1226 /* lstate.c in Sources */,
 				DD94F88E18F1B0B300EE1226 /* lopcodes.c in Sources */,
+				DD94F8A218F1B41200EE1226 /* LKS_LoadData.m in Sources */,
 				DD94F88918F1B0B300EE1226 /* llex.c in Sources */,
 				DD94F81E18F1AF6500EE1226 /* main.m in Sources */,
 				DD94F88318F1B0B300EE1226 /* ldo.c in Sources */,
